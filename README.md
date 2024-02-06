@@ -1,7 +1,5 @@
 ---
-description: >-
-  tutu-cache tutu-cache 是一个简单易用的Spring缓存注解。
-  使用tutu-cache注解来代替@Cacheable和@CacheEvict等注解
+description: tutu-cache 是一个简单易用的Spring缓存注解。 使用tutu-cache注解来代替@Cacheable和@CacheEvict等注解。
 ---
 
 # 🏠 首页
