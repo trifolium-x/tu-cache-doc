@@ -23,7 +23,7 @@ description: 这个文档介绍在您的项目中如何使用tu-cache
     ```
 3. @TuCache参数
    * `String key() default ""` 缓存的字符串格式key,支持spEl表达式(使用#{}包裹spEl表达式)，默认值为方法签名
-   * `long expire() default -1` 缓存的过期时间，单位(秒),默认永不过期. (**在1.0.4及以上版本中建议使用 `timeout`**)
+   * `long expire() default -1` 缓存的过期时间，单位(秒),默认永不过期. (**在1.0.4**.**RELEASE及以上版本中建议使用 `timeout`**)
    * `boolean resetExpire() default false` 每次获取数据是否重置过期时间.
    * `TimeUnit timeUnit() default TimeUnit.SECONDS` 缓存的时间单位.
    * `String condition() default "true"` 扩展的条件过滤，值为spEl表达式(直接编写表达式不需要使用#{}方式声明为spEl)

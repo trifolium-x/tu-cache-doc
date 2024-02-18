@@ -13,7 +13,7 @@ description: 快速在spring boot或者spring中使用tu-cache
          <dependency>
              <groupId>co.tunan.tucache</groupId>
              <artifactId>tucache-spring-boot-starter</artifactId>
-             <version>1.0.4</version>
+             <version>1.0.4.RELEASE</version>
          </dependency>
          <dependency>
              <groupId>org.springframework.boot</groupId>
@@ -41,7 +41,7 @@ description: 快速在spring boot或者spring中使用tu-cache
        <dependency>
          <groupId>co.tunan.tucache</groupId>
          <artifactId>cache-core</artifactId>
-         <version>1.0.4</version>
+         <version>1.0.4.RELEASE</version>
        </dependency>
        ```
    *   在applicationContent.xml中配置
