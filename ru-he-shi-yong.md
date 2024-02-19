@@ -82,5 +82,5 @@ description: 这个文档介绍在您的项目中如何使用tu-cache
 
 #### 更多样例
 
-[https://github.com/trifolium-wang/tutu-cache/tree/master/example](https://github.com/trifolium-wang/tutu-cache/tree/master/example)
+[https://github.com/trifolium-x/tutu-cache/tree/master/example](https://github.com/trifolium-wang/tutu-cache/tree/master/example)
 
