@@ -10,16 +10,18 @@ description: 快速在spring boot或者spring中使用tu-cache
    *   引入jar依赖包
 
        ```xml
-         <dependency>
-             <groupId>co.tunan.tucache</groupId>
-             <artifactId>tucache-spring-boot-starter</artifactId>
-             <version>1.0.4.RELEASE</version>
-         </dependency>
-         <dependency>
-             <groupId>org.springframework.boot</groupId>
-             <artifactId>spring-boot-starter-data-redis</artifactId>
-         </dependency>
-         <!-- 或者其他缓存 -->
+         <dependencies>
+           <dependency>
+               <groupId>co.tunan.tucache</groupId>
+               <artifactId>tucache-spring-boot-starter</artifactId>
+               <version>1.0.4.RELEASE</version>
+           </dependency>
+           <!-- 可选，建议使用redis,如有没redis依赖默认使用本地缓存 -->
+           <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-data-redis</artifactId>
+           </dependency>
+         </dependencies>
        ```
    *   在Configure类中注册javaBean redisTemplate或者使用默认的redisTemplate，必须开启aspectj的aop功能(默认是开启的)
 
